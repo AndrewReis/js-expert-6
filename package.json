@@ -1,0 +1,26 @@
+{
+  "name": "js-expert-6",
+  "version": "1.0.0",
+  "description": "Seja bem vindo(a) à sexta Semana Javascript Expert. Este é o código inicial para iniciar nossa jornada.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server/index.js",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pino": "^8.15.1",
+    "pino-pretty": "^10.2.0"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^0.34.4",
+    "vitest": "^0.34.4"
+  }
+}
